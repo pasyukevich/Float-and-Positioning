@@ -1,0 +1,123 @@
+@font-face {
+	font-family: "MyriadProRegular";
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+body{
+	height: 2000px;
+	overflow-y: scroll;
+	padding: 200px 0 0 218px;
+}
+.rectangle{
+	width: 519px;
+	height: 746px;
+	border:2px solid black;
+}
+.third{
+	position: absolute;
+	margin: 45px 0 0 55px;
+	background-color:  #acacac;
+}
+.second{
+	position: absolute;
+	margin: 20px 0 0 25px;
+	background-color: #cccccc;
+}
+.first{
+	position: relative;
+	box-sizing: border-box;
+	background-color: #ebebeb;
+	padding: 39px;
+}
+.float-left{
+	position: relative;
+	float: left;
+}
+.float-right{
+	position: relative;
+	float: right;
+}
+.img1{
+	float: left;
+	margin: 15px 15px 0 0;
+}
+ aside{
+	 position: fixed;
+	 right:0;
+	 bottom:120px;
+ }
+
+aside .share{
+	font-size: 14px;
+	position: absolute;
+	padding: 10px;
+	margin: 0 0 0 10px;
+ }
+.links{
+	 position: absolute;
+	 margin: -40px 0 0 5px;
+ }
+span{
+ font-size: 24px;
+	font-weight: normal;
+	margin-top:10px;
+}
+.bottom-text{
+	font-size: 9px;
+	text-align: center;
+}
+p{
+	position:relative;
+	font-size: 12px;
+}
+.big-text{
+	font-size: 18px;
+}
+.figure{	position: relative; }
+
+.left{
+	position: relative;
+	display: inline-block;
+	/*margin-bottom: 20px;*/
+	left: 0;
+	margin: 0 0 -89px 216px;
+}
+
+.right {
+	position: relative;
+	display: inline-block;
+	margin: 0 60px 20px 0;
+	right: 0;
+}
+
+p.clear{	clear:both;  }
+
+.bookmark {
+	width: 107px;
+	height: 35px;
+	border-radius: 0 10px 10px 0;
+	border: 2px solid #000000;
+	position: absolute;
+}
+
+.orange {
+	background-color: #f68e56;
+	top: 40px;
+	right: -83px;
+}
+
+.green {
+	background-color: #39b54a;
+	top: 42px;
+	right: -50px;
+}
+
+.blue {
+	background-color: #00aeef;
+	top: 47px;
+	right: -17px;
+}
